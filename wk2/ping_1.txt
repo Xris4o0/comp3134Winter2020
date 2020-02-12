@@ -1,0 +1,41 @@
+From Local
+
+C:\Users\xris1>ping 104.20.114.14
+
+Pinging 104.20.114.14 with 32 bytes of data:
+Reply from 104.20.114.14: bytes=32 time=20ms TTL=56
+Reply from 104.20.114.14: bytes=32 time=59ms TTL=56
+Reply from 104.20.114.14: bytes=32 time=26ms TTL=56
+Reply from 104.20.114.14: bytes=32 time=50ms TTL=56
+
+Ping statistics for 104.20.114.14:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 20ms, Maximum = 59ms, Average = 38ms
+
+From Droplet
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping 104.20.114.14
+PING 104.20.114.14 (104.20.114.14) 56(84) bytes of data.
+64 bytes from 104.20.114.14: icmp_seq=1 ttl=61 time=1.30 ms
+64 bytes from 104.20.114.14: icmp_seq=2 ttl=61 time=0.520 ms
+64 bytes from 104.20.114.14: icmp_seq=3 ttl=61 time=0.533 ms
+64 bytes from 104.20.114.14: icmp_seq=4 ttl=61 time=0.522 ms
+64 bytes from 104.20.114.14: icmp_seq=5 ttl=61 time=0.569 ms
+64 bytes from 104.20.114.14: icmp_seq=6 ttl=61 time=0.548 ms
+64 bytes from 104.20.114.14: icmp_seq=7 ttl=61 time=0.543 ms
+64 bytes from 104.20.114.14: icmp_seq=8 ttl=61 time=0.486 ms
+64 bytes from 104.20.114.14: icmp_seq=9 ttl=61 time=0.723 ms
+64 bytes from 104.20.114.14: icmp_seq=10 ttl=61 time=0.498 ms
+64 bytes from 104.20.114.14: icmp_seq=11 ttl=61 time=0.544 ms
+64 bytes from 104.20.114.14: icmp_seq=12 ttl=61 time=0.556 ms
+64 bytes from 104.20.114.14: icmp_seq=13 ttl=61 time=0.562 ms
+64 bytes from 104.20.114.14: icmp_seq=14 ttl=61 time=0.553 ms
+64 bytes from 104.20.114.14: icmp_seq=15 ttl=61 time=0.508 ms
+64 bytes from 104.20.114.14: icmp_seq=16 ttl=61 time=0.659 ms
+64 bytes from 104.20.114.14: icmp_seq=17 ttl=61 time=0.525 ms
+64 bytes from 104.20.114.14: icmp_seq=18 ttl=61 time=0.518 ms
+^C
+--- 104.20.114.14 ping statistics ---
+18 packets transmitted, 18 received, 0% packet loss, time 17316ms
+rtt min/avg/max/mdev = 0.486/0.592/1.306/0.184 ms

@@ -1,0 +1,19 @@
+Domain Name: escapefromtarkov.com
+IP Address: 104.20.114.14
+
+
+Domain Name: digitalocean.com
+IP Address: 104.16.182.15
+
+
+Domain Name: naturalcrit.com
+IP Address: 64.98.145.30
+
+
+Domain Name: blackboard.com
+IP Address: 69.196.244.99
+
+
+Domain Name: github.com
+IP Address: 140.82.113.3
+
