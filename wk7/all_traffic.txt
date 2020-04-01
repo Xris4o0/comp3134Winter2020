@@ -1,0 +1,1 @@
+tcpdump -i eth0 > all_traffic_20200316_0645.txt
