@@ -1,0 +1,11 @@
+Should not be able to view files and folders before the /html directory.
+
+Fixed by implimenting "if(strpos(realpath($path), '/html') !== false)" which checks if the path we are looking at has the '/html' string pathern..
+
+Should not attempt to look at folders that do not exist.
+
+Fixed by implimenting "if(!file_exists($path))".
+
+BONUS, do not allow user to pass a filename
+
+Fixed by implementing "strpos($_GET['q'], '.')" check at first if statement.

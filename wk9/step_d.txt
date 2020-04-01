@@ -1,0 +1,7 @@
+What do you see on the browser? (the issue)
+
+You see developer error show up which gives up alot of information. This happened because the php code has no way of dealing with missing files.
+
+What sensitive information is given by this page?
+
+The whole path where the public html is making it easy to navigate. Also on which line of code the php code failed.

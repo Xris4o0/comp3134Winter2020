@@ -1,0 +1,7 @@
+What do you see on the browser? (the issue)
+
+The same exact thing as if we wrote ../ but we only had to use the URL encoding %2e%2e%2f which can probably confuse basic protection or security meassures.
+
+What sensitive information is given by this page?
+
+This shows that we can use URL encoding in the URL bar to hide our intentions from programs or security settings that have been set to look for specific characters. This will allow us to use the characters with out referencing them.

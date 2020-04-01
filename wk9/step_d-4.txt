@@ -1,0 +1,7 @@
+What do you see on the browser? (the issue)
+
+Each and every folder present in the var folder in the server.
+
+What sensitive information is given by this page?
+
+Gives the user a chance to access otherwise inaccessible and possibly sensitive folders.

@@ -1,0 +1,1 @@
+Creating a php tag and placing the comments in it will make sure that the client will not see them.
