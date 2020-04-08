@@ -1,0 +1,11 @@
+1. We noticed that the URL changed and the word that I was looking for was defined by the website.
+The URL structure always remains https://www.dictionary.com/browse/(WORD).
+
+2. The website took my input and placed it into the form.
+No word was found and the URL was changed to
+(https://www.dictionary.com/misspelling?term=ertyguhijo)
+
+3.The website acted wierdly and did not attempt to correct our "word".
+Also the URL form of the search inputed was modified to represent special characters diffrently.
+
+4.The "term" in the URL is the name of the variable from the form.

@@ -1,0 +1,11 @@
+The two solutions handle the problem in different ways:
+
+- HTML entities makes sure that the user input given to the server is translated
+to HTML first then placed into the PHP page, which changes some of the special
+characters to a specific %## codes and these codes are not recognized by the PHP interpreter.
+The PHP interpreter is told specificaly that this string is a HTML and needs to be displayed
+as such. Making any script tags not readable as javascript, but just as a string.
+
+
+- The stripping of tags denies the chance for any tags to be inputted and injected into the
+PHP page by changing the input string before placing it anywhere in the page.
