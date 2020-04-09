@@ -1,0 +1,1 @@
+I noticed that because we are checking which form the request came in from the new csfr_form.php could not log in to csfr_action.php.

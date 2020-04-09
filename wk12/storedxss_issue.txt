@@ -1,0 +1,6 @@
+It ran the script with no issue and redirected me to a different page/file on the server with out letting me know.
+Mostly anyone can exchange the .txt to a diffrent file and redirect users however they wish.
+This allows many dangerous ways for malicious users to disrupt your server.
+This also shows the just because the script comes from a .txt file that PHP will still interpret it before it responds with the HTML page.
+
+- The user can save scripts or other malicious code to do anything they wish.
