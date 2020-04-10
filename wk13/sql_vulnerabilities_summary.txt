@@ -1,0 +1,14 @@
+Type: "Ben"
+
+The query doesn't find any row with the firstname = Ben and active = 1.
+It is as expected because active is set to = 0 in the table.
+
+Type: "Ben'-- "
+
+The query doesn't find any row with the firstname = Ben'--  and active = 1.
+This was expected as it doesnt make any sense to find anything.
+
+Type: "Ben' or 1=1"
+
+The query finds all rows even though the active = 0 on all rows inside the database.
+This is because the logic ignored any of the previous statments and execused only the one that states 1=1. 
