@@ -5,8 +5,9 @@ It is as expected because active is set to = 0 in the table.
 
 Type: "Ben'-- "
 
-The query doesn't find any row with the firstname = Ben'--  and active = 1.
-This was expected as it doesnt make any sense to find anything.
+The query finds only the row with the firstname = Ben.
+This was expected as the "-- " indicate comment in sql.
+Allowing the user to bypass the active = 1 check.
 
 Type: "Ben' or 1=1"
 
