@@ -17,7 +17,7 @@ if (!$conn) {
 }
 
 if(isset($_GET["firstname"])){
-  $sql = "SELECT u.id, u.username, u.email, u.firstname, u.lastname, u.active FROM u$
+  $sql = "SELECT u.id, u.username, u.email, u.firstname, u.lastname, u.active FROM users u WHERE u.active='1' AND u.firstname='".$_GET["firstname"]."'";
 }else{
   $sql = "SELECT id, username, email, firstname, lastname, active FROM users";
 }

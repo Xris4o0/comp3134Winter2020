@@ -1,0 +1,16 @@
+<h1>Welcome to the Reflected XSS HTML page!</h1>
+
+<form id="form">
+  <input id="input" type="text" name="input"/>
+  <button id="submit" type="submit">Display</button></br>
+</form>
+
+<div id="output"></div>
+
+<script>
+  let form = document.getElementById('form');
+  form.onsubmit = function(e){
+    e.preventDefault();
+    document.getElementById('output').innerText = document.getElementById('input').value;
+  }
+</script>

@@ -18,11 +18,11 @@ if (!$conn) {
 
 if(isset($_GET["firstname"])){
   $fn = $_GET["firstname"];
-  $sql = $conn->prepare("SELECT u.id, u.username, u.email, u.firstname, u.lastname, $
+  $sql = $conn->prepare("SELECT u.id, u.username, u.email, u.firstname, u.lastname, u.active FROM users u WHERE u.active='1' AND u.firstname=?");
   $sql->bind_param("s", $fn);
   $sql->execute();
 }else{
-  $sql = $conn->prepare("SELECT id, username, email, firstname, lastname, active FRO$
+  $sql = $conn->prepare("SELECT id, username, email, firstname, lastname, active FROM users");
   $sql->execure();
 }
 
